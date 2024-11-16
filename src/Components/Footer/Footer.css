@@ -1,0 +1,68 @@
+.footer {
+    background-color: #141414; /* Netflix-like dark background */
+    color: #808080; /* Netflix-like gray text color */
+    padding: 20px 30px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px; /* Spacing between links */
+    margin-bottom: 15px;
+  }
+  
+  .footer-links a {
+    color: #808080;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #fff; /* Highlight on hover */
+  }
+  
+  .footer-text {
+    font-size: 12px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 15px 20px; /* Reduce padding for smaller screens */
+    }
+  
+    .footer-links {
+      gap: 10px; /* Reduce gap between links */
+    }
+  
+    .footer-links a {
+      font-size: 13px; /* Slightly smaller text for links */
+    }
+  
+    .footer-text {
+      font-size: 11px; /* Smaller font size for copyright text */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer {
+      padding: 10px 15px; /* Further reduce padding */
+    }
+  
+    .footer-links {
+      flex-direction: column; /* Stack links vertically */
+      gap: 8px; /* Reduce gap */
+    }
+  
+    .footer-links a {
+      font-size: 12px; /* Even smaller text for very small screens */
+    }
+  
+    .footer-text {
+      font-size: 10px; /* Adjust copyright text size */
+    }
+  }
+  

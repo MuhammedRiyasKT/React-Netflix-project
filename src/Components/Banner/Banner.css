@@ -79,7 +79,7 @@
 /* Media Query for mobile devices (max-width: 480px) */
 @media (max-width: 480px) {
     .banner {
-        height: 300px;
+        height: 250px;
         background-position:left;
     }
 
@@ -88,7 +88,7 @@
         padding-left: 5px;
     }
 
-    .title {
+    .header {
         font-size: 2rem;
     }
 
@@ -104,6 +104,8 @@
     }
 
     .fade_bottom {
-        height: 9rem;
+        height: 5rem;
+        margin-top: -39px;
     }
+    
 }
